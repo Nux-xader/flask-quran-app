@@ -1,0 +1,31 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+.arabic-font {
+  font-family: 'Droid Arabic Kufi', serif;
+}
+
+.none-text-decoration {
+	text-decoration: none;
+}
+
+.card {
+	max-width: 85%;
+	margin-left: 7.5%;
+	transition: 0.45s;
+}
+
+.card:hover {
+	background-color: #0d6efd;
+	color: #fff;
+}
+
+.content {
+	margin-top: 7rem;
+	margin-bottom: 5rem;
+}
+
+footer {
+	color: #fff;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}

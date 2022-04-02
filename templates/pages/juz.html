@@ -1,0 +1,18 @@
+{% extends "layouts/base.html" %}
+{% block page %}{{ page }}{% endblock %}
+
+{% block content %}
+  {% for sub_juz in all_juz %}
+    <div class="row text-center">
+      {% for juz in sub_juz %}
+      	<a href="/juz?juz={{ juz }}" class="col-md-2 mb-4 none-text-decoration text-dark">
+      		<div class="card">
+      		  <div class="card-body">
+      		    <h5 class="card-title">Juz {{ juz }}</h5>
+      		  </div>
+      		</div>
+      	</a>
+      {% endfor %}
+    </div>
+  {% endfor %}
+{% endblock %}
